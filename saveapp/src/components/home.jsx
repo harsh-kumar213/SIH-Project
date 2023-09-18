@@ -2,7 +2,7 @@ import React from 'react'
 import vg from '../assets/graphic.png'
 
 
-import {AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillInstagram} from "react-icons/ai"
+import {AiFillGoogleCircle,AiFillTwitterCircle,AiFillYoutube,AiFillInstagram} from "react-icons/ai"
 
 const Home = () => {
   return (
@@ -46,15 +46,15 @@ const Home = () => {
 
      <div className="home4" id='brands'>
           <div>
-              <h1>Brands</h1>
+              <h1>SOCIAL PRESENCE</h1>
         <article>
            <div style={{animationDelay:"0.3s"}}>
               <AiFillGoogleCircle/>
               <p>Google</p>
            </div>
            <div style={{animationDelay:"0.5s"}}>
-              <AiFillAmazonCircle/>
-              <p>Amazon</p>
+              <AiFillTwitterCircle/>
+              <p>Twitter</p>
            </div>
            <div style={{animationDelay:"0.7s"}}>
               <AiFillYoutube/>

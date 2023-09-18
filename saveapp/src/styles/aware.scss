@@ -1,0 +1,66 @@
+@import "colors";
+
+.body{
+    background-color: rgb(32, 30, 30);
+    color: white;
+}
+.explain
+{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    >h1{
+        color: red;
+    }
+    >p{
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 1.2rem;
+    }
+}
+
+.cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    >.row{
+        display: flex;
+       flex-direction: row;  
+     
+       width: 70%;
+       margin: auto;
+       margin-bottom: 40px;
+       height:40%;
+
+       >.disaster{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+         width: 30%;
+         border: solid 2px red;
+         border-radius: 10px;
+         margin: 2px 15px 2px 15px;
+         &:hover{
+            scale: 1.05;
+         }
+         >img{
+            height: 10rem;
+            width: 15rem;
+            
+         }
+         >.detail{
+            text-decoration: none;
+            color: whitesmoke;
+            &:hover{
+                color: blue;
+            }
+         }
+       }
+    }
+}
